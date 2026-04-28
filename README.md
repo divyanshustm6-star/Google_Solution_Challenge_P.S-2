@@ -20,11 +20,6 @@ ChainGuard is a "GPS for supply chains that reroutes before the roadblock forms.
 - Click "View Route Options" → accept or dismiss a recommendation
 - Visit /analytics for carrier performance charts
 
-## Deployment to Vercel
+## Deployment to Vercel/Netlify
 1. Push repo to GitHub
-2. Import project in Vercel dashboard
-3. Add environment variables (see .env.example)
-4. Add Vercel Postgres from Vercel Storage tab
-5. Update DATABASE_URL to Vercel Postgres connection string
-6. Deploy — Vercel auto-runs build and migrations via postbuild script
-7. After first deploy, run: `vercel run npx prisma db seed`
+2. Import project in Vercel/Netlify dashboard
